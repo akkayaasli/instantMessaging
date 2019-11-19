@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "608641255940",
+    "firebase_url": "https://mesajlasma-116fd.firebaseio.com",
+    "project_id": "mesajlasma-116fd",
+    "storage_bucket": "mesajlasma-116fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608641255940:android:87c0b25e381a9828728351",
+        "android_client_info": {
+          "package_name": "com.example.instantmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608641255940-fcud0af50k9uji654rrf9kva4qa4trum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instantmessaging",
+            "certificate_hash": "5ee4dad369189dd3e46357bab1eb6f1c35cde473"
+          }
+        },
+        {
+          "client_id": "608641255940-vbm4e3h8ebfnruq76bhjd2e055foimlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgVw8LmdHyBBgFxddJhuxjG74PQfu1J58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608641255940-vbm4e3h8ebfnruq76bhjd2e055foimlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
