@@ -3,6 +3,7 @@ package com.example.instantmessaging;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -33,6 +34,7 @@ public class GirisEkrani extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_giris_ekrani);
         tasarimcode();
 
@@ -100,7 +102,7 @@ public class GirisEkrani extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()) {
-                    Toast.makeText(getApplicationContext(), "giriş başarılı", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "giriş başarılı..", Toast.LENGTH_LONG).show();
                 }
             }
         });
